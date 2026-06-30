@@ -1,0 +1,8 @@
+# File path: .gitignore
+# What it does: Keeps generated build output out of source control.
+# Why it exists: Prevents local .NET artifacts from being mixed with app source files.
+# RELATED FILES: WallpaperQuick.csproj, README.md
+
+bin/
+obj/
+.vs/

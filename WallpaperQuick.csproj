@@ -1,0 +1,20 @@
+<!--
+File path: WallpaperQuick.csproj
+What it does: Defines the Windows desktop project for WallpaperQuick.
+Why it exists: Builds a small WPF app that can run in the background and change wallpapers.
+RELATED FILES: App.xaml, MainWindow.xaml, Services/WallpaperService.cs, Services/HotKeyService.cs
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>
